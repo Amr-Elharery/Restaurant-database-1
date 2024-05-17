@@ -1,0 +1,11 @@
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\bin\Debug\Restaurant.exe.config
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\bin\Debug\Restaurant.exe
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\bin\Debug\Restaurant.pdb
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.csproj.AssemblyReference.cache
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.cache
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.exe
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.pdb
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Menu.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.LoginForm.resources

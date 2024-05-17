@@ -126,3 +126,13 @@ select oc.order_id,oc.food_id,oc.order_date,p.pay_id,oc.total_amount
 from order_customer oc left outer join payment p
 on oc.order_id=p.order_id
 group by oc.order_id,p.pay_id,oc.food_id,oc.order_date,oc.total_amount;
+
+
+SELECT * FROM customer
+SELECT * FROM delivary
+SELECT * FROM food
+SELECT * FROM menu
+SELECT * FROM order_customer
+SELECT * FROM payment
+SELECT * FROM staff
+SELECT * FROM table_reservation
