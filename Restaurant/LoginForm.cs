@@ -20,7 +20,7 @@ namespace Restaurant
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string connectionString = "Server = AMR-ELHARERY; Database = restaurant; Integrated Security = True;";
+            string connectionString = "Server = AMR-ELHARERY; Database = Restaurant; Integrated Security = True;";
             using(SqlConnection connection = new SqlConnection(connectionString))
             {
                 try
@@ -31,7 +31,7 @@ namespace Restaurant
                         string query = "SELECT staff_id, password FROM staff WHERE staff_id=@id AND password=@password";
                         SqlCommand cmd = new SqlCommand(query, connection);
                         cmd.Parameters.AddWithValue("@id", txtUserIDSignUp.Text);
-                        cmd.Parameters.AddWithValue("@password", int.Parse(txtPasswordSignUp.Text));
+                        cmd.Parameters.AddWithValue("@password", txtPasswordSignUp.Text);
                         SqlDataReader read = cmd.ExecuteReader();
                         if (read.Read())
                         {
@@ -45,16 +45,14 @@ namespace Restaurant
                     }
                     else if (!chBoxStaff.Checked)
                     {
-                        string query = "SELECT customer_name, customer_number FROM customer WHERE customer_number=@password AND customer_name=@id";
+                        string query = "SELECT customer_name, customer_number FROM customer WHERE customer_number=@id AND password=@password";
                         SqlCommand cmd = new SqlCommand(query, connection);
-                        cmd.Parameters.AddWithValue("@password", int.Parse(txtPasswordSignUp.Text));
                         cmd.Parameters.AddWithValue("@id", txtUserIDSignUp.Text);
+                        cmd.Parameters.AddWithValue("@password", txtPasswordSignUp.Text);
                         SqlDataReader read = cmd.ExecuteReader();
                         if (read.Read())
-                        { 
-                            Menu menu = new Menu();
-                            menu.Show();
-                            this.Hide();
+                        {
+                            MessageBox.Show("Logging in...");
                         }
                         else
                         {
@@ -68,6 +66,25 @@ namespace Restaurant
                 {
                     MessageBox.Show(ex.Message);
                 }
+            }
+        }
+
+        private void labelGoToSignUp_Click(object sender, EventArgs e)
+        {
+            SignUp signup = new SignUp();
+            this.Hide();
+            signup.Show();
+        }
+
+        private void chBoxShowPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if(chBoxShowPassword.Checked)
+            {
+                txtPasswordSignUp.PasswordChar = '\0';
+            }
+            else
+            {
+                txtPasswordSignUp.PasswordChar = '*';
             }
         }
     }
