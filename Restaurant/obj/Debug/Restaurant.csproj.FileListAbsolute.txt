@@ -24,3 +24,4 @@ C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.cspr
 C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
 C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.exe
 C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.pdb
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.CustomerChoice.resources

@@ -53,6 +53,9 @@ namespace Restaurant
                         if (read.Read())
                         {
                             MessageBox.Show("Logging in...");
+                            CustomerChoice customerChoice = new CustomerChoice();
+                            this.Hide();
+                            customerChoice.Show();
                         }
                         else
                         {
