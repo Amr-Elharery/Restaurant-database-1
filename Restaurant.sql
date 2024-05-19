@@ -141,3 +141,5 @@ ADD [password] VARCHAR(20) NOT NULL DEFAULT 'password';
 
 insert into customer(customer_name, customer_number, email, [address], [password]) values ('Amr', '01551172802', 'amrelharery@gmail.com', '6th of October', 'admin')
 insert into staff([password], [role], staff_name, salary) values ('admin', 'admin', 'Amr', '10000.00');
+
+SELECT MAX(staff_id) as LastID FROM staff;
