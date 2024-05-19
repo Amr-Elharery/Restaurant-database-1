@@ -1,3 +1,4 @@
+--CREATE DATABASE Restaurant;
 use Restaurant;
 Go
 create table staff(
@@ -31,6 +32,7 @@ create table order_customer(
  order_id int primary key identity(1,1),
  order_date date not null,
  total_amount decimal(7,2) not null,
+ [type] varchar(20) not null,
  staff_id int,
  food_id int,
  customer_number varchar(30) ,
@@ -42,13 +44,12 @@ create table order_customer(
 create table table_reservation(
 table_id int primary key identity(1,1),
 staff_id int ,
-food_id int,
+order_id int FOREIGN KEY REFERENCES order_customer(order_id),
 customer_number varchar(30) ,
 number_of_people int not null,
 reservation_date date not null,
 status varchar(10) not null,
  foreign key (customer_number) references customer(customer_number),
- foreign key (food_id) references food(food_id),
  foreign key (staff_id) references staff(staff_id),
 )
 create table delivary(
@@ -83,23 +84,25 @@ INSERT INTO menu(food_id,staff_id)
 VALUES
     ((SELECT food_id FROM food WHERE name = 'rice'), 1),
     ((SELECT food_id FROM food WHERE name = 'chicken'), 2);
+
 SELECT m.*, f.name, f.price + 1 AS updated_price
 FROM menu AS m
 JOIN food AS f ON m.food_id = f.food_id
 JOIN staff AS s ON s.staff_Id = m.staff_id
 WHERE s.role IN ('admin', 'manage');
+
 insert into customer(customer_name,customer_number,email,address)
 values
 ('ahmed','01023457102','ahmed@gmail.com','dokii'),
 ('sara','01023457100','sara@gmail.com','ramsis'),
 ('ahlam','01023457130','ahlam@gmail.com','zmalek'),
 ('mohamed','01023457110','mohamed@gmail.com','ramsis');
-INSERT INTO table_reservation(staff_id, food_id, customer_number, number_of_people, reservation_date, status)
+INSERT INTO table_reservation(staff_id, customer_number, number_of_people, reservation_date, status, order_id)
 VALUES
-(1, (SELECT food_id FROM food WHERE name = 'macronna'), '01023457100', 2, '2024-05-06', 'accept'),
-(2, (SELECT food_id FROM food WHERE name = 'rice'), '01023457102', 4, '2024-05-06', 'reject'),
-(3, (SELECT food_id FROM food WHERE name = 'chicken'), '01023457130', 3, '2024-05-06', 'accept'),
-(4, (SELECT food_id FROM food WHERE name = 'macronna'), '01023457110', 1, '2024-05-06', 'reject');
+(1, '01023457100', 5,'2024-05-06', 'accept', 1),
+(2, '01023457102', 4, '2024-05-06', 'reject', 1),
+(3, '01023457130', 3, '2024-05-06', 'accept', 1),
+(4, '01023457110', 1, '2024-05-06', 'reject', 1);
 update table_reservation
 set number_of_people+=1
 where status='accept';
@@ -109,18 +112,22 @@ where status='accept';
 select *
 from table_reservation
 where status='accept';
-insert into order_customer(order_date,total_amount,staff_id,food_id,customer_number,order_status)
+insert into order_customer(order_date,total_amount,staff_id,food_id,customer_number,order_status, [type])
 values
-('2024-05-07',50.00,3,(SELECT food_id FROM food WHERE name = 'chicken'),'01023457130','pending'),
-('2024-05-07',30.00,1,(SELECT food_id FROM food WHERE name = 'macronna'),'01023457100','pending');
+('2024-05-07',50.00,3,(SELECT food_id FROM food WHERE name = 'chicken'),'01023457130','pending', 'delivery'),
+('2024-05-07',30.00,1,(SELECT food_id FROM food WHERE name = 'macronna'),'01023457100','pending', 'table');
 insert into payment(order_id,customer_number)
 values
 ((SELECT MAX(order_id) FROM order_customer WHERE customer_number = '01023457130'),'01023457130'),
 ((SELECT MAX(order_id) FROM order_customer WHERE customer_number = '01023457100'),'01023457100');
-select oc.order_id,oc.food_id,oc.order_date,p.pay_id,oc.total_amount
+
+--Payment
+select food.[name] as Food_Name, o.* from (
+select oc.order_id, oc.food_id,oc.order_date,p.pay_id,oc.total_amount
 from order_customer oc left outer join payment p
 on oc.order_id=p.order_id
-group by oc.order_id,p.pay_id,oc.food_id,oc.order_date,oc.total_amount;
+group by oc.order_id,p.pay_id,oc.food_id,oc.order_date,oc.total_amount
+) o inner join food on o.food_id = food.food_id
 
 /*delete order_customer;
 delete payment;
@@ -131,6 +138,7 @@ delete customer;
 delete table_reservation;
 delete delivary;*/
 
+-- Amr
 
 select * from customer;
 select * from staff;
@@ -143,3 +151,16 @@ insert into customer(customer_name, customer_number, email, [address], [password
 insert into staff([password], [role], staff_name, salary) values ('admin', 'admin', 'Amr', '10000.00');
 
 SELECT MAX(staff_id) as LastID FROM staff;
+
+SELECT * FROM table_reservation;
+
+DELETE table_reservation;
+
+ALTER TABLE table_reservation
+DROP COLUMN food_id
+
+
+ALTER TABLE table_reservation
+Add order_id int FOREIGN KEY REFERENCES order_customer(order_id)
+
+SELECT * FROM order_customer;
