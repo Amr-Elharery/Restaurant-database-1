@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\",
+  "WorkspaceRootPath": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|e:\\amr\\education\\fcai\\second-year\\second-semester\\database\\project\\database project\\restaurant\\customersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\customerchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customerchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\customersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+=======
+      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\customersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+>>>>>>> a1a0ceae8eca519ddacf4092b9802319e6866690
       "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\customerchoice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customerchoice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,10 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "CustomerSignUp.cs",
               "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerSignUp.cs",
@@ -29,17 +46,62 @@
               "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerSignUp.cs",
               "RelativeToolTip": "CustomerSignUp.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwB0AAABoAAAA",
+=======
+              "DocumentIndex": 4,
+              "Title": "CustomerChoice.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerChoice.Designer.cs",
+              "RelativeDocumentMoniker": "CustomerChoice.Designer.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerChoice.Designer.cs",
+              "RelativeToolTip": "CustomerChoice.Designer.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAEwEoAAAAAAAAA",
+>>>>>>> a1a0ceae8eca519ddacf4092b9802319e6866690
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T10:38:49.498Z",
+              "WhenOpened": "2024-05-19T13:09:23.886Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delivery.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\Delivery.cs",
+              "RelativeDocumentMoniker": "Delivery.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\Delivery.cs [Design]",
+              "RelativeToolTip": "Delivery.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:02:25.228Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Table.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\Table.cs",
+              "RelativeDocumentMoniker": "Table.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\Table.cs [Design]",
+              "RelativeToolTip": "Table.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:02:06.08Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerChoice.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerChoice.cs",
+              "RelativeDocumentMoniker": "CustomerChoice.cs",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerChoice.cs [Design]",
+              "RelativeToolTip": "CustomerChoice.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:59:23.956Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CustomerSignUp.cs [Design]",
-              "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerSignUp.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerSignUp.cs",
               "RelativeDocumentMoniker": "CustomerSignUp.cs",
-              "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerSignUp.cs [Design]",
+              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerSignUp.cs [Design]",
               "RelativeToolTip": "CustomerSignUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T10:36:41.314Z"

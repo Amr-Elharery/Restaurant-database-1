@@ -11,3 +11,16 @@ E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Proj
 E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.SignUp.resources
 E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.CustomerSignUp.resources
 E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.StaffSignUp.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\bin\Debug\Restaurant.exe.config
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\bin\Debug\Restaurant.exe
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\bin\Debug\Restaurant.pdb
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.csproj.AssemblyReference.cache
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.CustomerSignUp.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.SignUp.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.LoginForm.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.StaffSignUp.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.cache
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.exe
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.pdb

@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerChoice.Designer.cs">
+      <DependentUpon>CustomerChoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CustomerSignUp.Designer.cs">
       <DependentUpon>CustomerSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delivery.Designer.cs">
+      <DependentUpon>Delivery.cs</DependentUpon>
     </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
@@ -77,6 +89,15 @@
     <Compile Include="StaffSignUp.Designer.cs">
       <DependentUpon>StaffSignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table.Designer.cs">
+      <DependentUpon>Table.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerChoice.resx">
+      <DependentUpon>CustomerChoice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerSignUp.resx">
       <DependentUpon>CustomerSignUp.cs</DependentUpon>
     </EmbeddedResource>
