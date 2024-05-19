@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
-    public partial class Table : Form
+    public partial class Success : Form
     {
-        public Table(string number,string food)
+        public Success()
         {
             InitializeComponent();
         }
 
-        private void Table_Load(object sender, EventArgs e)
+        private void btnGoToHome_Click(object sender, EventArgs e)
         {
-
+            CustomerChoice customerChoice = new CustomerChoice();
+            this.Hide();
+            customerChoice.Show();
         }
     }
 }

@@ -43,5 +43,19 @@ namespace Restaurant
                 }
             }
         }
+
+        private void btnReservationChoice_Click(object sender, EventArgs e)
+        {
+            Table table = new Table(txtUserNumber.Text,txtFood.Text);
+            this.Hide();
+            table.Show();
+        }
+
+        private void btnDeliveryChoice_Click(object sender, EventArgs e)
+        {
+            Delivery delivery = new Delivery(txtUserNumber.Text, txtFood.Text);
+            this.Hide();
+            delivery.Show();
+        }
     }
 }

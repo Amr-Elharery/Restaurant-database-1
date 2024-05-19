@@ -12,9 +12,10 @@ namespace Restaurant
 {
     public partial class Delivery : Form
     {
-        public Delivery()
+        public Delivery(string number,string food)
         {
             InitializeComponent();
         }
+
     }
 }
