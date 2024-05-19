@@ -46,7 +46,7 @@ namespace Restaurant
 
         private void btnReservationChoice_Click(object sender, EventArgs e)
         {
-            Table table = new Table(txtUserNumber.Text,txtFood.Text);
+            Table table = new Table(txtUserNumber.Text, txtFood.Text);
             this.Hide();
             table.Show();
         }

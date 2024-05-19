@@ -23,5 +23,6 @@ namespace Restaurant
             this.Hide();
             customerChoice.Show();
         }
+
     }
 }
