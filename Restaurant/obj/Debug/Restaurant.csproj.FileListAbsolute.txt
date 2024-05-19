@@ -28,3 +28,7 @@ E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Proj
 E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Delivery.resources
 E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Success.resources
 E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Table.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.CustomerChoice.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.Delivery.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.Success.resources
+C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.Table.resources

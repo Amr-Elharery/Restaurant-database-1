@@ -125,7 +125,7 @@
             // 
             this.dataMenu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataMenu.Location = new System.Drawing.Point(105, 87);
-            this.dataMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataMenu.Margin = new System.Windows.Forms.Padding(2);
             this.dataMenu.Name = "dataMenu";
             this.dataMenu.RowHeadersWidth = 51;
             this.dataMenu.RowTemplate.Height = 24;
@@ -146,7 +146,6 @@
             this.Controls.Add(this.btnReservationChoice);
             this.Controls.Add(this.label3);
             this.Name = "CustomerChoice";
-            this.Text = "CustomerChoice";
             this.Load += new System.EventHandler(this.CustomerChoice_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataMenu)).EndInit();
             this.ResumeLayout(false);
