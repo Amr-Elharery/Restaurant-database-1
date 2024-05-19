@@ -107,7 +107,7 @@ update table_reservation
 set number_of_people+=1
 where status='accept';
 update table_reservation
-set reservation_date='2024-05-07'
+set reservation_date='2024-05-07'-
 where status='accept';
 select *
 from table_reservation
@@ -164,3 +164,13 @@ ALTER TABLE table_reservation
 Add order_id int FOREIGN KEY REFERENCES order_customer(order_id)
 
 SELECT * FROM order_customer;
+
+SELECT food_id FROM food WHERE [name]='rice';
+
+SELECT MAX(order_id) as LastID FROM order_customer
+SELECT ISNULL(MAX(order_id), 0) + 1 AS NextID FROM order_customer
+
+
+INSERT INTO table_reservation(staff_id, customer_number, number_of_people, reservation_date, status, order_id)
+VALUES
+(1, '01023457100', 5,'2024-05-19', 'accept', 1)
