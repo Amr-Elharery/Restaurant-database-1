@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItem.Designer.cs">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +70,18 @@
     <Compile Include="CustomerChoice.Designer.cs">
       <DependentUpon>CustomerChoice.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerProfile.Designer.cs">
+      <DependentUpon>CustomerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +93,12 @@
     </Compile>
     <Compile Include="Delivery.Designer.cs">
       <DependentUpon>Delivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus.Designer.cs">
+      <DependentUpon>Menus.cs</DependentUpon>
     </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
@@ -107,17 +137,38 @@
     <Compile Include="Table.Designer.cs">
       <DependentUpon>Table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tables.Designer.cs">
+      <DependentUpon>Tables.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddItem.resx">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerChoice.resx">
       <DependentUpon>CustomerChoice.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomerProfile.resx">
+      <DependentUpon>CustomerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerSignUp.resx">
       <DependentUpon>CustomerSignUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Delivery.resx">
       <DependentUpon>Delivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus.resx">
+      <DependentUpon>Menus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
@@ -142,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Table.resx">
       <DependentUpon>Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tables.resx">
+      <DependentUpon>Tables.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

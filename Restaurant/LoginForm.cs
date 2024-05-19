@@ -35,11 +35,15 @@ namespace Restaurant
                         SqlDataReader read = cmd.ExecuteReader();
                         if (read.Read())
                         {
-                            MessageBox.Show("Logging in...");
+                            
+                            Admin admin = new Admin();
+                            this.Hide();
+                            admin.Show();
                         }
                         else
                         {
                             MessageBox.Show("Check yout credentials");
+                            txtPasswordSignUp.Text = "";
                         }
 
                     }
@@ -52,7 +56,7 @@ namespace Restaurant
                         SqlDataReader read = cmd.ExecuteReader();
                         if (read.Read())
                         {
-                            MessageBox.Show("Logging in...");
+                            
                             CustomerChoice customerChoice = new CustomerChoice();
                             this.Hide();
                             customerChoice.Show();

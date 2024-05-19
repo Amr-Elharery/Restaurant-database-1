@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\",
+  "WorkspaceRootPath": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|e:\\amr\\education\\fcai\\second-year\\second-semester\\database\\project\\database project\\restaurant\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\customerchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customerchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\customerchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customerchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|c:\\users\\hp\\downloads\\restaurant-database-1\\restaurant\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|e:\\amr\\education\\fcai\\second-year\\second-semester\\database\\project\\database project\\restaurant\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\Admin.cs",
-              "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\Admin.cs",
-              "RelativeToolTip": "Admin.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAEwBMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T18:51:28.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Admin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\Admin.cs",
-              "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\Admin.cs [Design]",
-              "RelativeToolTip": "Admin.cs [Design]",
+              "Title": "CustomerProfile.cs",
+              "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerProfile.cs",
+              "RelativeDocumentMoniker": "CustomerProfile.cs",
+              "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerProfile.cs",
+              "RelativeToolTip": "CustomerProfile.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAA9wEYAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T18:33:03.246Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerChoice.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerChoice.cs",
-              "RelativeDocumentMoniker": "CustomerChoice.cs",
-              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerChoice.cs",
-              "RelativeToolTip": "CustomerChoice.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAIAwwBYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T18:29:29.268Z",
+              "WhenOpened": "2024-05-19T20:34:56.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerChoice.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerChoice.cs",
-              "RelativeDocumentMoniker": "CustomerChoice.cs",
-              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\CustomerChoice.cs [Design]",
-              "RelativeToolTip": "CustomerChoice.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "CustomerProfile.cs [Design]",
+              "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerProfile.cs",
+              "RelativeDocumentMoniker": "CustomerProfile.cs",
+              "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerProfile.cs [Design]",
+              "RelativeToolTip": "CustomerProfile.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T18:29:27.145Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\LoginForm.cs",
-              "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAAABYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T18:29:20.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Users\\hp\\Downloads\\Restaurant-database-1\\Restaurant\\LoginForm.cs [Design]",
-              "RelativeToolTip": "LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T16:59:08.04Z",
+              "WhenOpened": "2024-05-19T20:29:20.461Z",
               "EditorCaption": " [Design]"
             }
           ]

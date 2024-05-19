@@ -52,7 +52,7 @@
             this.txtUserNameSignUp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUserNameSignUp.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUserNameSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserNameSignUp.Location = new System.Drawing.Point(675, 69);
+            this.txtUserNameSignUp.Location = new System.Drawing.Point(671, 68);
             this.txtUserNameSignUp.Margin = new System.Windows.Forms.Padding(4);
             this.txtUserNameSignUp.Multiline = true;
             this.txtUserNameSignUp.Name = "txtUserNameSignUp";
@@ -64,7 +64,7 @@
             this.labelUserID.AutoSize = true;
             this.labelUserID.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelUserID.ForeColor = System.Drawing.Color.Gray;
-            this.labelUserID.Location = new System.Drawing.Point(671, 23);
+            this.labelUserID.Location = new System.Drawing.Point(667, 22);
             this.labelUserID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelUserID.Name = "labelUserID";
             this.labelUserID.Size = new System.Drawing.Size(155, 32);
@@ -76,7 +76,7 @@
             this.txtUserEmailAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUserEmailAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUserEmailAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserEmailAddress.Location = new System.Drawing.Point(675, 299);
+            this.txtUserEmailAddress.Location = new System.Drawing.Point(671, 298);
             this.txtUserEmailAddress.Margin = new System.Windows.Forms.Padding(4);
             this.txtUserEmailAddress.Multiline = true;
             this.txtUserEmailAddress.Name = "txtUserEmailAddress";
@@ -88,7 +88,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(671, 254);
+            this.label4.Location = new System.Drawing.Point(667, 253);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(197, 32);
@@ -100,7 +100,7 @@
             this.txtUserAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUserAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUserAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserAddress.Location = new System.Drawing.Point(675, 630);
+            this.txtUserAddress.Location = new System.Drawing.Point(671, 629);
             this.txtUserAddress.Margin = new System.Windows.Forms.Padding(4);
             this.txtUserAddress.Multiline = true;
             this.txtUserAddress.Name = "txtUserAddress";
@@ -112,7 +112,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(669, 594);
+            this.label2.Location = new System.Drawing.Point(665, 593);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 32);
@@ -122,7 +122,7 @@
             // txtUserNumber
             // 
             this.txtUserNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserNumber.Location = new System.Drawing.Point(675, 176);
+            this.txtUserNumber.Location = new System.Drawing.Point(671, 175);
             this.txtUserNumber.Margin = new System.Windows.Forms.Padding(4);
             this.txtUserNumber.Multiline = true;
             this.txtUserNumber.Name = "txtUserNumber";
@@ -134,7 +134,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(667, 133);
+            this.label1.Location = new System.Drawing.Point(663, 132);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 32);
@@ -147,7 +147,7 @@
             this.btnSignUp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignUp.ForeColor = System.Drawing.Color.DimGray;
-            this.btnSignUp.Location = new System.Drawing.Point(754, 714);
+            this.btnSignUp.Location = new System.Drawing.Point(750, 713);
             this.btnSignUp.Margin = new System.Windows.Forms.Padding(4);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(153, 50);
@@ -242,7 +242,7 @@
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPassword.ForeColor = System.Drawing.Color.Gray;
-            this.labelPassword.Location = new System.Drawing.Point(665, 366);
+            this.labelPassword.Location = new System.Drawing.Point(661, 365);
             this.labelPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(138, 32);

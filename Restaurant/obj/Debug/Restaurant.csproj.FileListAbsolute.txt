@@ -32,3 +32,10 @@ C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.Cust
 C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.Delivery.resources
 C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.Success.resources
 C:\Users\hp\Downloads\Restaurant-database-1\Restaurant\obj\Debug\Restaurant.Table.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Admin.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Tables.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.AddItem.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Menus.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.Customers.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.AddCustomer.resources
+E:\Amr\EDUCATION\FCAI\Second-Year\Second-semester\Database\Project\Database Project\Restaurant\obj\Debug\Restaurant.CustomerProfile.resources

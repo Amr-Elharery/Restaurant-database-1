@@ -76,10 +76,13 @@ values
 ('salah','12345679','manage',1500),
 ('adam','12345671','waiter',1000),
 ('farah','12345672','waitress',1000);
+
 INSERT INTO food (name, description, status, price) VALUES
 ('macronna', 'Delicious pasta', 'Available', 25),
 ('rice', 'Steamed rice', 'Available', 26),
 ('chicken', 'Grilled chicken', 'Available', 27);
+
+
 INSERT INTO menu(food_id,staff_id) 
 VALUES
     ((SELECT food_id FROM food WHERE name = 'rice'), 1),
@@ -174,3 +177,5 @@ SELECT ISNULL(MAX(order_id), 0) + 1 AS NextID FROM order_customer
 INSERT INTO table_reservation(staff_id, customer_number, number_of_people, reservation_date, status, order_id)
 VALUES
 (1, '01023457100', 5,'2024-05-19', 'accept', 1)
+
+select * from food;

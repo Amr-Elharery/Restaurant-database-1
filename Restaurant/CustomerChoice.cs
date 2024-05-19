@@ -57,5 +57,19 @@ namespace Restaurant
             this.Hide();
             delivery.Show();
         }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            this.Hide();
+            loginForm.Show();
+        }
+
+        private void btnGoToProfile_Click(object sender, EventArgs e)
+        {
+           CustomerProfile customerProfile = new CustomerProfile();
+            this.Hide();
+            customerProfile.Show();
+        }
     }
 }
