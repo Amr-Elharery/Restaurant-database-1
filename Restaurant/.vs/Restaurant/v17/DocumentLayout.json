@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|e:\\amr\\education\\fcai\\second-year\\second-semester\\database\\project\\database project\\restaurant\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|e:\\amr\\education\\fcai\\second-year\\second-semester\\database\\project\\database project\\restaurant\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|e:\\amr\\education\\fcai\\second-year\\second-semester\\database\\project\\database project\\restaurant\\staffsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:staffsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|e:\\amr\\education\\fcai\\second-year\\second-semester\\database\\project\\database project\\restaurant\\customersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|solutionrelative:customersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D12BBB5-B50F-4B3E-A580-EC8B0AA3F02D}|Restaurant.csproj|e:\\amr\\education\\fcai\\second-year\\second-semester\\database\\project\\database project\\restaurant\\customersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,68 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "CustomerSignUp.cs",
+              "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerSignUp.cs",
+              "RelativeDocumentMoniker": "CustomerSignUp.cs",
+              "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerSignUp.cs",
+              "RelativeToolTip": "CustomerSignUp.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAIAxwCAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:38:49.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CustomerSignUp.cs [Design]",
               "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerSignUp.cs",
               "RelativeDocumentMoniker": "CustomerSignUp.cs",
               "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\CustomerSignUp.cs [Design]",
               "RelativeToolTip": "CustomerSignUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T09:12:28.338Z",
+              "WhenOpened": "2024-05-19T10:36:41.314Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StaffSignUp.cs [Design]",
-              "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\StaffSignUp.cs",
-              "RelativeDocumentMoniker": "StaffSignUp.cs",
-              "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\StaffSignUp.cs [Design]",
-              "RelativeToolTip": "StaffSignUp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T09:07:16.948Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignUp.cs [Design]",
-              "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\SignUp.cs",
-              "RelativeDocumentMoniker": "SignUp.cs",
-              "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\SignUp.cs [Design]",
-              "RelativeToolTip": "SignUp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T09:06:56.674Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\LoginForm.cs [Design]",
-              "RelativeToolTip": "LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:48:06.341Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "E:\\Amr\\EDUCATION\\FCAI\\Second-Year\\Second-semester\\Database\\Project\\Database Project\\Restaurant\\LoginForm.cs",
-              "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAswFIAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:00:47.111Z",
-              "EditorCaption": ""
             }
           ]
         }
